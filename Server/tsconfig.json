@@ -5,7 +5,8 @@
     "removeComments": true,
     "preserveConstEnums": true,
     "sourceMap": true,
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "esModuleInterop": true
   },
   "include": [ "src/**/*" ],
   "exclude": [ "node_modules" ]

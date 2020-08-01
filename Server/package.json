@@ -8,8 +8,13 @@
   "license": "AGPL-3.0",
   "private": false,
   "dependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/cors": "^2.8.7",
     "@types/express": "^4.17.7",
     "@types/node": "^14.0.27",
+    "body-parser": "^1.19.0",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.7"
