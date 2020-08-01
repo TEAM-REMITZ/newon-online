@@ -4,7 +4,8 @@
     "noImplicitAny": false,
     "removeComments": true,
     "preserveConstEnums": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "strictNullChecks": true
   },
   "include": [ "src/**/*" ],
   "exclude": [ "node_modules" ]
