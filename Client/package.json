@@ -1,0 +1,10 @@
+{
+  "name": "newon-client",
+  "version": "1.0.0",
+  "description": "newon online client",
+  "main": "index.js",
+  "repository": "https://github.com/TEAM-REMITZ/newon-online",
+  "author": "remitz",
+  "license": "AGPL-3.0",
+  "private": false
+}
