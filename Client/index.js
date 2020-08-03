@@ -3,6 +3,7 @@ const { app, BrowserWindow } = require('electron')
 const WINDOW_OPTION = {
   width: 1920,
   height: 1080,
+  frame: false,
   webPreferences: {
     nodeIntegration: true
   }
@@ -13,6 +14,7 @@ function createWindow() {
   
   win.setMenuBarVisibility(false)
   win.maximize()
+  win.setFullScreen(true)
   win.loadURL(`file://${__dirname}/html/index.html`)
 }
 
