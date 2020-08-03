@@ -1,17 +1,19 @@
 const { app, BrowserWindow } = require('electron')
 
+const WINDOW_OPTION = {
+  width: 1920,
+  height: 1080,
+  webPreferences: {
+    nodeIntegration: true
+  }
+}
+
 function createWindow() {
-  const win = new BrowserWindow({
-    width: 1920,
-    height: 1080,
-    webPreferences: {
-      nodeIntegration: true
-    }
-  })
+  const win = new BrowserWindow(WINDOW_OPTION)
   
   win.setMenuBarVisibility(false)
   win.maximize()
-  win.loadFile('./html/index.html')
+  win.loadURL(`file://${__dirname}/html/index.html`)
 }
 
 app.whenReady().then(createWindow)
