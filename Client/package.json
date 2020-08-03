@@ -6,5 +6,11 @@
   "repository": "https://github.com/TEAM-REMITZ/newon-online",
   "author": "remitz",
   "license": "AGPL-3.0",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "electron": "^9.1.2"
+  },
+  "scripts": {
+    "start": "electron ."
+  }
 }
