@@ -1,1 +1,1 @@
-const IP = '5tarlight.kro.kr'
+const IP = 'http://localhost:5425'
